@@ -1,5 +1,5 @@
 {
-  "name": "guacamole-lite-server",
+  "name": "guacamole-lite-websocket-server",
   "version": "1.0.0",
   "description": "Guacamole Lite WebSocket Server",
   "main": "index.js",
@@ -7,7 +7,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "guacamole-lite": "^0.7.2",
-    "express": "^4.19.2"
+    "guacamole-lite": "^0.7.2"
   }
 }

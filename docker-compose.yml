@@ -13,11 +13,10 @@ services:
       - guacamole-network
 
   guacd:
-    image: guacamole/guacd:latest
+    image: guacamole/guacd
     container_name: guacd
     ports:
       - "4822:4822"
-    platform: linux/amd64
     networks:
       - guacamole-network
 
